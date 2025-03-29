@@ -1,21 +1,17 @@
 {
-    "windowTitle": "Kiwi IRC - The web IRC client",
+    "windowTitle": "KiwiIRC",
     "startupScreen": "welcome",
-    "kiwiServer": "https://localdev.clients.kiwiirc.com/webirc/kiwiirc/",
-    "restricted": false,
-    "theme": "Default",
+    "restricted": true,
+    "theme": "Dark",
+    "useMonospace": true,
     "themes": [
         { "name": "Default", "url": "static/themes/default" },
         { "name": "Dark", "url": "static/themes/dark" }
     ],
     "startupOptions" : {
-        "channel": "#kiwiirc-default",
-        "nick": "kiwi-n?"
-    },
-    "embedly": {
-        "key": ""
-    },
-    "plugins": [
-        { "name": "customise", "url": "static/plugins/customise.html" }
-    ]
+        "greetingText": "Connect to IRC (Hosted by telepath.im)",
+        "websocket": "wss://ircws.telepath.im/",
+        "channel": "#wave",
+        "nick": "milk-?"
+    }
 }
