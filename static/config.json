@@ -5,14 +5,14 @@
     "theme": "Default",
     "useMonospace": true,
     "themes": [
-        { "name": "Default", "url": "static/themes/default" },
-        { "name": "Dark", "url": "static/themes/dark" }
+        { "name": "Default", "url": "static/themes/default" },      
+        { "name": "Dark", "url": "static/themes/nightswatch" }
     ],
     "startupOptions" : {
-        "greetingText": "Connect to Telepath.im",
+        "greetingText": "telepath.im IRC",
         "websocket": "wss://ircws.telepath.im/",
-        "channel": "#telepath",
-        "nick": "Guest-?"
+        "channel": "#wave",
+        "nick": "milky-?"
     },
     "ircFramework": {
         "auto_reconnect": true,
