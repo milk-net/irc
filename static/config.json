@@ -11,7 +11,7 @@
     "startupOptions" : {
         "greetingText": "telepath.im IRC",
         "websocket": "wss://ircws.telepath.im/",
-        "channel": "#wave",
+        "channel": "#milknet",
         "nick": "milky-?"
     },
     "ircFramework": {
